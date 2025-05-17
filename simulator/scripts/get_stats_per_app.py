@@ -1,3 +1,4 @@
+from __future__ import print_function
 import os
 import csv
 import sys
@@ -110,7 +111,7 @@ with open(tmp, "r") as ins:
                     
 
         except:
-            print "Couldn't read some stat. Check label: " + label
+            print("Couldn't read some stat. Check label: " + label)
 
 # ====================== CPU Metrics  ======================
 if(len(cycles_list)!=0):
